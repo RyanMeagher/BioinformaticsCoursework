@@ -6,13 +6,21 @@ effective in battling leukemia therefore I choose to focus on a model that favor
 
 
 KLExpand - KLExpand function used for feature selection and dimentionality reduction (PCA)
+
 ANN - Code for ANN, different numbers of layers and nodes (see comments)
+
 KNN_1set_LOO - KNN with the first set of variables (8 vars) using the leave one out method
+
 KNN_second_set - KNN with second set of variables (5 vars) using leave one out method
+
 testingtrainingdata.m - method used to divide data to testing and training data for the non leave one out code
+
 KNN_no_LOO - same as above but using training and testing data shuffling and averaging accuracies
+
 variable selection - apply thresholds to select variables
-+ Hemo data set of leukemia patients who have been given hydroxyurea -> hemp.mat 
+
+hemp.mat -> Hemo data set of leukemia patients who have been given hydroxyurea. Label of Y/N is given if 
+there is a >= 15% difference between finial and initial patient hemoglobin corresponding to before and after treatment
 
 
 Hw1item4 - implement naive bayes estimator using leave one out cross validation method to determine 
